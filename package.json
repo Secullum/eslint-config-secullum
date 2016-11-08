@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-secullum",
+  "version": "1.0.0",
+  "description": "Shared eslint config",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Secullum/eslint-config-secullum.git",
+    "type": "git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT"
+}
