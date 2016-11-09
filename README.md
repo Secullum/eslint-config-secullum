@@ -17,3 +17,16 @@ Then, create a file named .eslintrc in the root of your project:
   "extends": "secullum"
 }
 ```
+
+If you use babel, you might want to use the babel-eslint parser:
+
+```sh
+npm install --save-dev babel-eslint
+```
+
+```js
+{
+  "extends": "secullum",
+  "parser": "babel-eslint"
+}
+```
