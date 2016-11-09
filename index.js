@@ -46,7 +46,7 @@ module.exports = {
     'computed-property-spacing': 'error',
     'eol-last': 'error',
     'func-call-spacing': 'error',
-    'indent': ['error', 2],
+    'indent': ['error', 2, { "SwitchCase": 1 }],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
     'jsx-quotes': 'error',
