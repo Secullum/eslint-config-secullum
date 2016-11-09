@@ -43,6 +43,7 @@ module.exports = {
     'comma-spacing': 'error',
     'comma-style': 'error',
     'computed-property-spacing': 'error',
+    'consistent-return': 'error',
     'eol-last': 'error',
     'func-call-spacing': 'error',
     'indent': ['error', 2, { "SwitchCase": 1 }],
