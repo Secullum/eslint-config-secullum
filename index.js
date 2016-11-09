@@ -34,7 +34,6 @@ module.exports = {
     /* Variables */
     'no-label-var': 'error',
     'no-shadow-restricted-names': 'error',
-    'no-use-before-define': ['error', 'nofunc'],
 
     /* Stylistic Issues */
     'array-bracket-spacing': 'error',
