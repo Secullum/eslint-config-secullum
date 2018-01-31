@@ -34,6 +34,7 @@ module.exports = {
     /* Variables */
     'no-label-var': 'error',
     'no-shadow-restricted-names': 'error',
+    'no-unused-vars': ['error', { 'ignoreRestSiblings': true }],
 
     /* Stylistic Issues */
     'array-bracket-spacing': 'error',
@@ -91,7 +92,7 @@ module.exports = {
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
-    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
+    'react/jsx-no-duplicate-props': ['error', { 'ignoreCase': true }],
     'react/jsx-no-undef': 'error',
     'react/jsx-pascal-case': 'error',
     'react/jsx-space-before-closing': 'error',
